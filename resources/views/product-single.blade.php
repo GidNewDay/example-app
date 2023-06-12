@@ -79,7 +79,7 @@
                             <p style="color: #000;">80 piece available</p>
                         </div>
                     </div>
-                    <p><a href="cart.html" class="btn btn-black py-3 px-5">Add to Cart</a></p>
+                    <p><a href="{{ route('add_to_cart', $product[0]->id) }}" class="btn btn-black py-3 px-5">Add to Cart</a></p>
                 </div>
             </div>
         </div>
